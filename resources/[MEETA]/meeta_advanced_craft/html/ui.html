@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>ESX NEW SHOP BY THANAUWT PROMRAUNGDET</title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Athiti&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/materialize.css">
+    <link rel="stylesheet" type="text/css" href="css/ui.css">
+</head>
+
+<body>
+    <script src="js/jquery.min.js"></script>
+    <script type="text/javascript" src="js/materialize.min.js"></script>
+    <script src="js/scripts.js"></script>
+    <script>
+        $(function () {
+            $('.modal').modal({
+                endingTop: '40%',
+                dismissible: false,
+                onOpenStart: function(){
+
+                    $("#text_result").hide();
+                    $("#progressbar").show();
+                }
+            });
+
+        });
+    </script>
+
+    <div id="modal_carft" class="modal" style="width: 1020px;">
+        <div class="modal-content">
+            <div id="progressbar" class="progress grey darken-4" style="height: 20px;margin: 0;">
+                <div class="indeterminate indigo" style="width: 0%"></div>
+            </div>
+            <div id="text_result" align="center">
+                
+            </div>
+        </div>
+    </div>
+
+    <div class="ui">
+        <div class="middle">
+            <div class="inventory">
+                <div id="col-inventory">
+                    <div class="header" style="position: relative;">
+                        <span id="text_header"></span>
+                        <div style="position: absolute;right: 15px;bottom: 0;" align="right">
+                            <button type="button" data-action="clear" class="btn-floating btn-large btn-flat waves-effect waves-light" style="opacity: 0.9"><i class="material-icons">refresh</i></button>
+                            <button type="button" data-action="carft" class="btn-floating btn-large btn-flat waves-effect waves-light" style="opacity: 0.9"><i class="material-icons">done</i></button>
+                        </div>
+                    </div>
+                    <div class="main">
+                            
+                        <div class="row" style="margin:0;padding:0;">
+                            <div class="col s3" align="center" style="width: 127.5px;padding: 0;position: relative;" data-slot="1">
+                                <div id="count_1" class="count"></div>
+                                <div class="empty_item first">
+                                    
+                                </div>
+                            </div>
+                            <div class="col s3" align="center" style="width: 127.5px;padding: 0;position: relative;" data-slot="2">
+                                <div id="count_2" class="count"></div>
+                                <div class="empty_item">
+                                    
+                                </div>
+                            </div>
+                            <div class="col s3" align="center" style="width: 127.5px;padding: 0;position: relative;" data-slot="3">
+                                <div id="count_3" class="count"></div>
+                                <div class="empty_item">
+
+                                </div>
+                            </div>
+                            <div class="col s3" align="center" style="width: 127.5px;padding: 0;position: relative;" data-slot="4">
+                                <div id="count_4" class="count"></div>
+                                <div class="empty_item">
+
+                                </div>
+                            </div>
+                            <div class="col s3" align="center" style="width: 127.5px;padding: 0;position: relative;" data-slot="5">
+                                <div id="count_5" class="count"></div>
+                                <div class="empty_item">
+
+                                </div>
+                            </div>
+                            <div class="col s3" align="center" style="width: 127.5px;padding: 0;position: relative;" data-slot="6">
+                                <div id="count_6" class="count"></div>
+                                <div class="empty_item">
+
+                                </div>
+                            </div>
+                            <div class="col s3" align="center" style="width: 127.5px;padding: 0;position: relative;" data-slot="7">
+                                <div id="count_7" class="count"></div>
+                                <div class="empty_item">
+
+                                </div>
+                            </div>
+                            <div class="col s3" align="center" style="width: 127.5px;padding: 0;position: relative;" data-slot="8">
+                                <div id="count_8" class="count"></div>
+                                <div class="empty_item last">
+
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="menu" align="left">
+                            <a class="btn-flat btn-large waves-effect waves-light "><i class="material-icons">add</i></a>
+                            <a class="btn-flat btn-large waves-effect waves-light "><i class="material-icons">add</i></a>
+                            <a class="btn-flat btn-large waves-effect waves-light "><i class="material-icons">add</i></a>
+                        </div>
+
+                        <div id="ItemResult" class="row" style="margin:0;padding:0;overflow: auto;">
+
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="dialog">
+        <div id="nearPlayers">
+        </div>
+    </div>
+
+</body>
+
+</html>

@@ -1,0 +1,71 @@
+#heal {
+    position: absolute;
+    right: 1.4%;
+    bottom: 1.8%;
+    width: 14.0%;
+    height: 1.0%;
+    padding: 0;
+    border: 2px solid black;
+    float:right;
+    background:rgba(84, 84, 84, 0.25);
+}
+
+#hunger {
+    position: absolute;
+    right: 1.381%;
+    bottom: 0.35%;
+    width: 4.540%;
+    height: 1.10%;
+    padding: 0;
+    border: 3px solid black;
+    float:right;
+    background:#545454;
+}
+#thirst {
+    position: absolute;
+    right: 6.10%;
+    bottom: 0.35%;
+    width: 4.540%;
+    height: 1.10%;
+    padding: 0;
+    border: 3px solid black;
+    float:right;
+    background:#545454;
+}
+
+#stamina {
+    position: absolute;
+    right: 10.8%;
+    bottom: 0.35%;
+    width: 4.540%;
+    height: 1.10%;
+    padding: 0;
+    border: 3px solid black;
+    float:right;
+    background:#545454;
+}
+
+
+#boxHeal, #boxStamina, #boxHunger, #boxThirst {
+    background: rgba(115, 190, 115, 0.75);
+    width: 150%;
+    height: 100%;
+    transition: 0.2s ease-in-out;
+}
+
+#boxHunger {
+    background: #f6b93b;
+}
+#boxThirst {
+    background: #6a89cc;
+}
+
+#boxStamina {
+    background: #ffff7f;
+}
+
+body {
+    overflow: hidden;
+    height:1080px;
+    width:150%;
+}

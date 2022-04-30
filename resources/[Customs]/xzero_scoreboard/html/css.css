@@ -1,0 +1,107 @@
+/* Create By.xZero */
+html,
+body {
+  margin: 0;
+  padding: 0;
+  color: #fff;
+  font-family: Mitr;
+}
+
+#body {
+  display: none;
+  background-color: rgba(0, 0, 0, 0);
+}
+
+.container {
+  margin-top: 10%;
+  width: 100%;
+  max-width: 600px;
+  /*min-width: 600px;*/
+}
+
+.xsb-box {
+  background-image: url("bg.jpg");
+
+  background-position: center;
+  background-size: cover;
+
+  max-width: 100%;
+  width: 100%;
+
+  min-height: 200px;
+  max-height: 100%;
+
+  border-radius: 15px;
+  box-shadow: 1px 1px 15px 2px #ffffff;
+}
+
+.xsb-box-left {
+  float: left;
+
+  width: 100%;
+  max-width: 24%;
+  height: 200px;
+  max-height: 100%;
+
+  margin: 2px;
+}
+
+.xsb-box-right {
+  float: right;
+
+  width: 100%;
+
+  max-width: 422px;
+  height: 200px;
+  max-height: 100%;
+
+  margin: 2px;
+}
+
+.xsb-logo {
+  margin: 3px;
+  height: 100%;
+  max-height: 50%;
+
+  text-align: center;
+  padding-top: 5px;
+}
+
+.img-logo {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.xsb-myid {
+  margin: 3px;
+  height: 100%;
+  max-height: 45%;
+
+  text-align: center;
+}
+
+.myidbox {
+  padding-top: 10px;
+}
+
+.xsb-info {
+  max-height: 100%;
+  height: 100%;
+  padding: 10px;
+}
+
+p {
+  margin-bottom: 5px;
+}
+
+hr {
+  border-top: 1px solid rgba(255, 254, 254, 0.36);
+}
+
+.t1 {
+  color: #35ff73;
+}
+
+.clearfix {
+  clear: both;
+}

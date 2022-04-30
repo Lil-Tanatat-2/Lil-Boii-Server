@@ -1,0 +1,1 @@
+print('Stamina System 1.0 Made by PKS.in.TH #MrAcoustic')

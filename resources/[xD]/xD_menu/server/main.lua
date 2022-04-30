@@ -1,0 +1,1 @@
+print('[#] Made by KornXD (MrAcoustic) | Powered by PKS.in.TH')
